@@ -1,0 +1,48 @@
+/* 
+Theme Name: Pizzeria
+Author: Sarah Rosenblum
+
+*/
+
+head.title,
+header h1 {
+    text-align: center;
+    color: #966699;
+}
+
+
+.navbar-brand img {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    margin-top: -50px; /* this is centering the image in the navbar */
+    display: block;
+}
+
+
+/* Hours/Serving area */
+footer { 
+    /* width:100%;  */
+    float: none;
+    padding: 8px 0px; 
+    background:#333;
+    font-size:18px; 
+    font-weight:600; 
+    color:#FFF; 
+}
+
+
+/* site-by portion at the bottom most part */
+.footer-bottom{ 
+    width: 100%; 
+    float:left; 
+    padding:5px; 
+    text-align:center; 
+    color:#FFF; 
+    font-size: x-small; 
+    background:#000;
+}
+
+.height-spacer{
+    min-height: 500px;
+}
