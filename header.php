@@ -45,6 +45,12 @@
           <li class="nav-item">
             <a class="nav-link" href="#hours">Hours</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#locations">Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul> 
       </div>
     </div>

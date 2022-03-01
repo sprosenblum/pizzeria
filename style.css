@@ -19,6 +19,12 @@ header h1 {
     display: block;
 }
 
+.pizza-item-img,
+.sides-item-img {
+   max-height: 200px;
+   max-width: 200px; 
+}
+
 
 /* Hours/Serving area */
 footer { 

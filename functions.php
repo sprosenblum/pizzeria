@@ -15,3 +15,13 @@ function pizzeria_register_styles() {
 }
 
 add_action('wp_enqueue_scripts', 'pizzeria_register_styles');
+
+
+// allows to set featured image/thumbnail in backend
+function pizzeria_setup_theme() {
+    add_theme_support( 'post-thumbnails' );
+    add_image_size('homepage-thumb', 200, 200 );
+}
+add_action( 'after_setup_theme', 'pizzeria_setup_theme' );
+
+
