@@ -6,7 +6,7 @@ Tested up to: WordPress 5.9
 Author: Sarah Rosenblum 
 
 == Description ==
-Pizza Truck website with menu, pricing, location and hours.
+Pizza food truck website with menu, pricing, location and hours.
 Custom post types: pizzas, sauces, toppings, sides, locations, contact, our story.
 Custom fields: map (for location), price (for pizzas and sides).
 
