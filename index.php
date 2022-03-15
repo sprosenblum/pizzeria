@@ -7,8 +7,8 @@
     <hr>
 
       <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="mb-5 font-weight-bold">Pizzas - cost per slice</h2>
+        <div class="col-12 offset-md-4 col-md-6 text-center text-md-start">
+          <h2 class="cost mb-5">Pizzas - cost per slice</h2>
         </div>
       </div>
 
@@ -38,7 +38,7 @@
           </span>
           </h3>
   
-    <p class="mt-5">
+    <p class="mt-3">
       <?php the_content(); ?>
     </p>
     </div>
@@ -81,7 +81,7 @@
 
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="mb-5 font-weight-bold">Toppings</h2>
+          <h2 class="mb-3 font-weight-bold">Toppings</h2>
         </div>
       </div>
 
@@ -93,7 +93,7 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <div class="text-center"><strong><?php the_title(); ?></strong></div>
+                <div class="text-center"><?php the_title(); ?></div>
             </div>
           </div>
         </div>
@@ -104,8 +104,8 @@
 
       <!-- sides -->
       <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="mb-5 font-weight-bold">Sides</h2>
+        <div class="col-12 offset-md-4 col-md-6 text-center text-md-start">
+          <h2 class="mb-5">Sides - cost per item</h2>
         </div>
       </div>
 
@@ -133,7 +133,7 @@
           </span>
           </h3>
   
-    <p class="mt-5">
+    <p class="mt-3">
       <?php the_content(); ?>
     </p>
     </div>
@@ -195,9 +195,9 @@ $loop = new WP_Query(array('post_type' => 'our_story', 'posts_per_page' => 1));
 
 while ($loop->have_posts()) : $loop->the_post(); ?>
 
-<div id="page-story" class="mt-5 row">
-        <h3 class="mb-3 text-center col-12">Our Story</h3>
-    <article class="mb-5 col-12 offset-md-1 col-md-10 text-center text-md-start">
+<div id="page-story" class="mt-3 row">
+        <h3 class="mb-4 text-center col-12">Our Story</h3>
+    <article class="mb-3 col-12 offset-md-1 col-md-10 text-center text-md-start">
       <?php the_content(); ?>
   </article>
   </div>
@@ -214,7 +214,7 @@ $loop = new WP_Query(array('post_type' => 'contact', 'posts_per_page' => 1));
 while ($loop->have_posts()) : $loop->the_post(); ?>
 
 <div id="contact" class="mt-5 row">
-        <h3 class="mb-2 text-center col-12">Contact Us</h3>
+        <h3 class="mb-3 text-center col-12">Contact Us</h3>
     <article class="mb-5 col-12 offset-md-1 col-md-10 text-center">
       <?php the_content(); ?>
   </article>
