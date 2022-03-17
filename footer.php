@@ -17,8 +17,8 @@
 
   <div class="footer-bottom mt-5">
     <div class="site-by white"> 
-      <?php echo (new DateTime)->format('Y'); ?> Site &copy; Mama Mia Pizzeria - by <a href="#" target="_blank">Sarah Rosenblum</a>
-      
+      <?php echo (new DateTime)->format('Y'); ?> Site &copy; Mama Mia Pizzeria - by 
+      <a href="#" target="_blank">Sarah Rosenblum</a>
     </div>
   </div>
 

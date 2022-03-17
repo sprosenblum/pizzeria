@@ -155,15 +155,6 @@
 
     <hr>
 
-    <div class="row">
-      <h2 id="order-now" class="col-12 text-center mt-5 mb-5">
-        <a href="">Order Your Hot Pizza Now!</a>
-        <!-- @todo add a link -->
-      </h2>
-    </div>
-
-    <hr>
-
     <!-- Location Section -->
     <div class="row" id="locations">
       <div class="col-12 text-center">
@@ -182,13 +173,14 @@
         <div class="container">
 
           <div class="row">
-            <div class="col-sm-2">
-              <div class="text-sm-end">
+            <div class="col-12 col-md-3">
+              <div class="text-md-end text-center">
                 <strong><?php the_title(); ?></strong>
               </div>
             </div>
 
-            <div class="col-sm-10">
+
+            <div class="col-12 offset-md-1 col-md-6 text-center text-md-start">
               <?php the_content(); ?>
             </div>
       
